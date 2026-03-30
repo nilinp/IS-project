@@ -79,11 +79,11 @@ def page_overview():
 
     section("ขั้นตอนการพัฒนาโมเดล")
     steps = [
-        ("1️. Data Loading", "โหลดข้อมูลจาก CSV ตรวจสอบ shape, dtypes, missing values"),
-        ("2️. Feature Engineering", "สร้าง features ใหม่ เช่น age_group, hr_age_ratio, risk_score, FamilySize, Title"),
-        ("3️. Preprocessing", "StandardScaler สำหรับ normalization, train/test split 80:20"),
-        ("4️. Model Training", "ฝึก ML Ensemble และ Neural Network พร้อม callbacks"),
-        ("5️. Evaluation", "วัดผล Accuracy, AUC, Confusion Matrix, Classification Report"),
+        ("1. Data Loading", "โหลดข้อมูลจาก CSV ตรวจสอบ shape, dtypes, missing values"),
+        ("2. Feature Engineering", "สร้าง features ใหม่ เช่น age_group, hr_age_ratio, risk_score, FamilySize, Title"),
+        ("3. Preprocessing", "StandardScaler สำหรับ normalization, train/test split 80:20"),
+        ("4. Model Training", "ฝึก ML Ensemble และ Neural Network พร้อม callbacks"),
+        ("5. Evaluation", "วัดผล Accuracy, AUC, Confusion Matrix, Classification Report"),
     ]
     c1, c2 = st.columns(2)
     for i, (title, desc) in enumerate(steps):
