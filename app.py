@@ -93,9 +93,9 @@ hr { border-color:var(--border) !important; }
 with st.sidebar:
     st.markdown("""
     <div style='text-align:center; padding:12px 0 12px;'>
-        <p style='font-size:1.73rem;color:#f0e8e0;'>Nilinpach</p>
-        <p style='font-size:1rem;color:#f0e8e0 !important;margin:0;'>6704062610241</p>
-        <p style='font-size:0.73rem;color:#9aaba8 !important;margin:0;'>Heart Disease & Titanic</p>
+        <p style='font-size:1.9rem; color:#f0e8e0 !important; margin:0;'>Nilinpach</p>
+        <p style='font-size:1.2rem; color:#f0e8e0 !important; margin-top:-2px;'>6704062610241</p>
+        <p style='margin-top:2px; margin-bottom:-1px; font-size:0.85rem; color:#9aaba8;'>Heart Disease & Titanic</p>
     </div>
     <hr style='border-color:#3d5055;margin:14px 0;'>
     """, unsafe_allow_html=True)
@@ -108,7 +108,7 @@ with st.sidebar:
 
     st.markdown("""
     <hr style='border-color:#3d5055;margin:14px 0;'>
-    <p style='font-size:0.7rem;color:#6a8080 !important;text-align:center;'>Dataset: Heart Disease & Titanic<br>Models: Ensemble ML & Neural Network</p>
+    <p style='font-size:0.76rem;color:#6a8080 !important;text-align:center;'>Dataset: Heart Disease & Titanic<br>Models: Ensemble ML & Neural Network</p>
     """, unsafe_allow_html=True)
 
 if page == "Home":
