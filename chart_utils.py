@@ -2,7 +2,7 @@ import plotly.graph_objects as go
 import plotly.express as px
 import numpy as np
 
-DARK_BG = "#2a232a"
+DARK_BG = "#212427"
 CARD_BG = "#354044"
 ACCENT  = "#D45769"
 ACCENT2 = "#308695"

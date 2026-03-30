@@ -1,7 +1,7 @@
 import streamlit as st
 
 st.set_page_config(
-    page_title="Nilinpach ML Explorer",
+    page_title="Nilinpach IS Project",
     page_icon="",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -17,7 +17,7 @@ st.markdown("""
     --mauve:  #308695;
     --purple: #455054;
     --teal:   #308695;
-    --bg:     #2a232a;
+    --bg:     #212427;
     --card:   #354044;
     --card2:  #2e3a3e;
     --border: #3d5055;
@@ -43,7 +43,7 @@ div[data-testid="stSpinner"] > div > * { display:none !important; }
 @keyframes cspin { to { transform: rotate(360deg); } }
 
 [data-testid="stSidebar"] {
-    background: #2a232a;
+    background: #212427;
     border-right: 1px solid var(--border);
 }
 [data-testid="stSidebar"] * { color: var(--text) !important; }
