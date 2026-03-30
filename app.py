@@ -43,7 +43,7 @@ div[data-testid="stSpinner"] > div > * { display:none !important; }
 @keyframes cspin { to { transform: rotate(360deg); } }
 
 [data-testid="stSidebar"] {
-    background: #212427;
+    background: linear-gradient(180deg, var(--coral) 0%, var(--mauve) 100%);
     border-right: 1px solid var(--border);
 }
 [data-testid="stSidebar"] * { color: var(--text) !important; }
